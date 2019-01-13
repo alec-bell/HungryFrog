@@ -1,6 +1,10 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Caesar.Commands;
+using Caesar.Controllers;
+using Caesar.Interfaces;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Collections.Generic;
 
 namespace Caesar
 {
@@ -11,6 +15,8 @@ namespace Caesar
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+
+        IController keyboardController;
 
         public Game1()
         {
@@ -26,7 +32,15 @@ namespace Caesar
         /// </summary>
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+            // Initialize commands
+            ICommand quitCommand = new QuitCommand(this);
+
+            // Link keys to commands
+            Dictionary<Keys, ICommand> keysMap = new Dictionary<Keys, ICommand>();
+            keysMap.Add(Keys.Q, quitCommand);
+
+            // Add controls to controller
+            keyboardController = new KeyboardController(keysMap);
 
             base.Initialize();
         }
@@ -60,10 +74,7 @@ namespace Caesar
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-                Exit();
-
-            // TODO: Add your update logic here
+            keyboardController.Update();
 
             base.Update(gameTime);
         }
