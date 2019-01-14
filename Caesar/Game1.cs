@@ -50,6 +50,11 @@ namespace Caesar
             keysMap.Add(Keys.Right, moveRightCommand);
             keysMap.Add(Keys.Up, moveUpCommand);
             keysMap.Add(Keys.Down, moveDownCommand);
+            //secondary commands for WASD
+            keysMap.Add(Keys.W, moveUpCommand);
+            keysMap.Add(Keys.A, moveLeftCommand);
+            keysMap.Add(Keys.S, moveDownCommand);
+            keysMap.Add(Keys.D, moveRightCommand);
 
             // Add controls to controller
             keyboardController = new KeyboardController(keysMap);

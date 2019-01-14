@@ -23,3 +23,27 @@ C:\Users\Alec\source\repos\Caesar\Caesar\obj\x86\Debug\Caesar.csproj.CoreCompile
 C:\Users\Alec\source\repos\Caesar\Caesar\obj\x86\Debug\Caesar.exe
 C:\Users\Alec\source\repos\Caesar\Caesar\obj\x86\Debug\Caesar.pdb
 C:\Users\Alec\source\repos\Caesar\Caesar\bin\Windows\x86\Debug\Content\caesar.xnb
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\Content\caesar.xnb
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\Caesar.exe
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\Caesar.pdb
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\obj\x86\Debug\Caesar.csprojAssemblyReference.cache
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\obj\x86\Debug\Caesar.csproj.CoreCompileInputs.cache
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\obj\x86\Debug\Caesar.csproj.CopyComplete
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\obj\x86\Debug\Caesar.exe
+C:\Users\Zach Rudy\Desktop\Caesar\Caesar\Caesar\obj\x86\Debug\Caesar.pdb
