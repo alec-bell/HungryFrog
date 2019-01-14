@@ -24,7 +24,8 @@ namespace Caesar.Controllers
 
             foreach (Keys key in keysPressed)
             {
-                controlMap[key].Execute();
+                if (controlMap.ContainsKey(key))
+                    controlMap[key].Execute();
             }
         }
     }

@@ -18,6 +18,8 @@ namespace Caesar
 
         IController keyboardController;
 
+        PlayerContext player;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -32,12 +34,22 @@ namespace Caesar
         /// </summary>
         protected override void Initialize()
         {
+            player = new PlayerContext(Content, new Vector2(0, 0));
+
             // Initialize commands
             ICommand quitCommand = new QuitCommand(this);
+            ICommand moveLeftCommand = new MoveLeftCommand(player);
+            ICommand moveRightCommand = new MoveRightCommand(player);
+            ICommand moveUpCommand = new MoveUpCommand(player);
+            ICommand moveDownCommand = new MoveDownCommand(player);
 
             // Link keys to commands
             Dictionary<Keys, ICommand> keysMap = new Dictionary<Keys, ICommand>();
             keysMap.Add(Keys.Q, quitCommand);
+            keysMap.Add(Keys.Left, moveLeftCommand);
+            keysMap.Add(Keys.Right, moveRightCommand);
+            keysMap.Add(Keys.Up, moveUpCommand);
+            keysMap.Add(Keys.Down, moveDownCommand);
 
             // Add controls to controller
             keyboardController = new KeyboardController(keysMap);
@@ -86,6 +98,10 @@ namespace Caesar
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+
+            spriteBatch.Begin();
+            player.Draw(spriteBatch);
+            spriteBatch.End();
 
             // TODO: Add your drawing code here
 

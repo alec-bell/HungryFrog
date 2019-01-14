@@ -1,4 +1,5 @@
 ﻿using Caesar.Interfaces;
+using Caesar.Sprites;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -15,20 +16,40 @@ namespace Caesar
         public Vector2 Location { get; set; }
         public ISprite Sprite { get; set; }
 
-        public PlayerContext(ContentManager content, Vector2 loc)
+        public PlayerContext(ContentManager content, Vector2 location)
         {
             Sprite = new CaesarSprite(content);
-            Location = loc;
+            Location = location;
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            
+            Sprite.Draw(spriteBatch, Location);
         }
 
         public void Update(GameTime gameTime)
         {
             
+        }
+
+        public void MoveLeft()
+        {
+            Location = new Vector2(Location.X - 5, Location.Y);
+        }
+
+        public void MoveRight()
+        {
+            Location = new Vector2(Location.X + 5, Location.Y);
+        }
+
+        public void MoveUp()
+        {
+            Location = new Vector2(Location.X, Location.Y - 5);
+        }
+
+        public void MoveDown()
+        {
+            Location = new Vector2(Location.X, Location.Y + 5);
         }
     }
 }

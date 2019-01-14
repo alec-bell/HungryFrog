@@ -22,3 +22,4 @@ C:\Users\Alec\source\repos\Caesar\Caesar\obj\x86\Debug\Caesar.csprojResolveAssem
 C:\Users\Alec\source\repos\Caesar\Caesar\obj\x86\Debug\Caesar.csproj.CoreCompileInputs.cache
 C:\Users\Alec\source\repos\Caesar\Caesar\obj\x86\Debug\Caesar.exe
 C:\Users\Alec\source\repos\Caesar\Caesar\obj\x86\Debug\Caesar.pdb
+C:\Users\Alec\source\repos\Caesar\Caesar\bin\Windows\x86\Debug\Content\caesar.xnb
