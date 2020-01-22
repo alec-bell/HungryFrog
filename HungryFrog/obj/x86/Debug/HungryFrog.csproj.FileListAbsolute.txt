@@ -50,3 +50,4 @@ C:\Users\Alec\source\repos\HungryFrog\HungryFrog\obj\x86\Debug\HungryFrog.csproj
 C:\Users\Alec\source\repos\HungryFrog\HungryFrog\obj\x86\Debug\HungryFrog.csproj.CoreCompileInputs.cache
 C:\Users\Alec\source\repos\HungryFrog\HungryFrog\obj\x86\Debug\HungryFrog.exe
 C:\Users\Alec\source\repos\HungryFrog\HungryFrog\obj\x86\Debug\HungryFrog.pdb
+C:\Users\Alec\source\repos\HungryFrog\HungryFrog\bin\Windows\x86\Debug\Content\frog.xnb

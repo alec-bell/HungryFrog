@@ -49,7 +49,7 @@
     <Compile Include="Controllers\KeyboardController.cs" />
     <Compile Include="Interfaces\ICommand.cs" />
     <Compile Include="Interfaces\IController.cs" />
-    <Compile Include="Sprites\CaesarSprite.cs" />
+    <Compile Include="Sprites\FrogSprite.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Interfaces\IContext.cs" />
     <Compile Include="Contexts\PlayerContext.cs" />

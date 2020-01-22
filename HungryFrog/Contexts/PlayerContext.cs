@@ -18,7 +18,7 @@ namespace HungryFrog.Contexts
 
         public PlayerContext(ContentManager content, Vector2 location)
         {
-            Sprite = new CaesarSprite(content);
+            Sprite = new FrogSprite(content);
             Location = location;
         }
 
@@ -35,11 +35,13 @@ namespace HungryFrog.Contexts
         public void MoveLeft()
         {
             Location = new Vector2(Location.X - 5, Location.Y);
+            Sprite.FaceLeft();
         }
 
         public void MoveRight()
         {
             Location = new Vector2(Location.X + 5, Location.Y);
+            Sprite.FaceRight();
         }
 
         public void MoveUp()

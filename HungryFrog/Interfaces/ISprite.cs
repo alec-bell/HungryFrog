@@ -13,5 +13,7 @@ namespace HungryFrog.Interfaces
         Texture2D Texture { get; set; }
 
         void Draw(SpriteBatch spriteBatch, Vector2 location);
+        void FaceLeft();
+        void FaceRight();
     }
 }
